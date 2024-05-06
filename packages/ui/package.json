@@ -1,10 +1,10 @@
 {
   "name": "@raonc/ui",
-  "version": "0.0.0",
+  "repository": "https://github.com/dydfuf/raon-test-monorepo",
+  "version": "0.1.0",
   "sideEffects": [
     "**/*.css"
   ],
-  "private": true,
   "exports": {
     "./tailwind.config": "./tailwind.config.ts",
     "./postcss.config": "./postcss.config.js",
@@ -131,5 +131,8 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.0",
     "zod": "^3.22.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
