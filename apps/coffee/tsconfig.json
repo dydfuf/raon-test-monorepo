@@ -1,0 +1,15 @@
+{
+  "extends": "@raonc/typescript-config/nextjs.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/.server/**/*.ts",
+    "**/.server/**/*.tsx",
+    "**/.client/**/*.ts",
+    "**/.client/**/*.tsx"
+  ],
+  "compilerOptions": {
+    "types": ["@vercel/remix", "node", "vite/client"],
+    "noEmit": true
+  }
+}

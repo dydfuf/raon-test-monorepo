@@ -1,0 +1,27 @@
+---
+title: Aspect Ratio
+description: Displays content within a desired ratio.
+component: true
+links:
+  doc: https://www.radix-ui.com/docs/primitives/components/aspect-ratio
+  api: https://www.radix-ui.com/docs/primitives/components/aspect-ratio#api-reference
+  shadcn: https://ui.shadcn.com/docs/components/aspect-ratio
+---
+
+<ComponentPreview name="aspect-ratio-demo" />
+
+## Usage
+
+```tsx
+import Image from "next/image"
+
+import { AspectRatio } from "@raonc/ui/components/aspect-ratio"
+```
+
+```tsx
+<div className="w-[450px]">
+  <AspectRatio ratio={16 / 9}>
+    <Image src="..." alt="Image" className="rounded-md object-cover" />
+  </AspectRatio>
+</div>
+```

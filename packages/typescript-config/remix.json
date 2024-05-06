@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Remix.js",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "types": ["@remix-run/node", "vite/client"],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

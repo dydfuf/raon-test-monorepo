@@ -1,0 +1,28 @@
+---
+title: Popover
+description: Displays rich content in a portal, triggered by a button.
+component: true
+links:
+  doc: https://www.radix-ui.com/docs/primitives/components/popover
+  api: https://www.radix-ui.com/docs/primitives/components/popover#api-reference
+  shadcn: https://ui.shadcn.com/docs/components/popover
+---
+
+<ComponentPreview name="popover-demo" />
+
+## Usage
+
+```tsx
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@raonc/ui/components/popover"
+```
+
+```tsx
+<Popover>
+  <PopoverTrigger>Open</PopoverTrigger>
+  <PopoverContent>Place content for the popover here.</PopoverContent>
+</Popover>
+```
