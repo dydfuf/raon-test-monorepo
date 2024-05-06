@@ -7,7 +7,8 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ui:add": "pnpm --filter @raonc/ui ui:add",
-    "commit": "better-commits"
+    "commit": "better-commits",
+    "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
     "@raonc/eslint-config": "workspace:*",
