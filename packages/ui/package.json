@@ -1,6 +1,9 @@
 {
   "name": "@dydfuf/ui",
-  "repository": "https://github.com/dydfuf/raon-test-monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dydfuf/raon-test-monorepo.git"
+  },
   "version": "0.1.1",
   "sideEffects": [
     "**/*.css"
@@ -133,6 +136,7 @@
     "zod": "^3.22.4"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
