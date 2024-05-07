@@ -5,7 +5,7 @@
     "url": "https://github.com/dydfuf/raon-test-monorepo.git"
   },
   "sideEffects": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
