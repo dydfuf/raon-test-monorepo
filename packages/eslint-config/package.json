@@ -1,12 +1,16 @@
 {
-  "name": "@raonc/eslint-config",
+  "name": "@dydfuf/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dydfuf/raon-test-monorepo.git"
+  },
   "version": "0.0.0",
-  "private": true,
   "files": [
     "library.js",
     "next.js",
     "react-internal.js"
   ],
+  "sideEffects": false,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
@@ -20,5 +24,9 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
