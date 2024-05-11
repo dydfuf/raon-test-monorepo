@@ -19,7 +19,8 @@
   "scripts": {
     "lint": "eslint ./src --max-warnings 0",
     "type-check": "tsc --noEmit",
-    "ui:add": "pnpm dlx shadcn-ui@latest add"
+    "ui:add": "pnpm dlx shadcn-ui@latest add",
+    "hello": "echo 'Hello, World!'"
   },
   "peerDependencies": {
     "react": "^18.2.0"
