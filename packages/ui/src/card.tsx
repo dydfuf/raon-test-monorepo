@@ -10,6 +10,7 @@ export function Card({
   href: string;
 }): JSX.Element {
   console.log("hello world! card!");
+  console.log("UI: 2");
   return (
     <a
       className={className}
