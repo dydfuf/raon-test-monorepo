@@ -10,6 +10,7 @@ export default function page() {
     name: postName,
     content: getPostByName(postName ?? ""),
   }));
+  console.log("hello blog!");
 
   return (
     <div>
