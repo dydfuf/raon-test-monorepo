@@ -6,15 +6,14 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui:add": "pnpm --filter @raonc/ui ui:add",
+    "ui:add": "pnpm --filter @dydfuf/ui ui:add",
     "commit": "better-commits",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
-    "@raonc/eslint-config": "workspace:*",
-    "@raonc/typescript-config": "workspace:*",
+    "@changesets/cli": "^2.27.1",
     "better-commits": "^1.12.0",
     "prettier": "^3.1.1",
     "turbo": "latest"
@@ -24,6 +23,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1"
+    "@changesets/changelog-git": "^0.2.0"
   }
 }

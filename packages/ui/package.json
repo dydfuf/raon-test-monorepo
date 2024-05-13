@@ -26,8 +26,8 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@raonc/eslint-config": "workspace:*",
-    "@raonc/typescript-config": "workspace:*",
+    "@dydfuf/eslint-config": "workspace:*",
+    "@dydfuf/typescript-config": "workspace:*",
     "@turbo/gen": "^1.11.3",
     "@types/eslint": "^8.56.1",
     "@types/node": "^20.10.6",
